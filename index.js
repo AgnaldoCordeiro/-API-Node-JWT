@@ -13,6 +13,6 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-require('./app/controllers/index')(app);
+require('./api/app/controllers/index')(app);
 
 app.listen(3001, () => console.log("Server online"));

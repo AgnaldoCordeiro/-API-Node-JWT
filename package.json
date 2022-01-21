@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "16.x"
+    "node": "14.x"
   },
   "scripts": {
     "start": "node index.js",
@@ -20,7 +20,7 @@
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.12",
+    "mongoose": "^6.1.7",
     "nodemailer": "^6.7.0",
     "nodemailer-express-handlebars": "^4.0.0",
     "path": "^0.12.7"

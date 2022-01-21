@@ -22,7 +22,7 @@ router.post('/register', async (req, res) => {
 
     try {
         if (await User.findOne({ cpf }))
-            return res.status(400).send({ error: 'USer already exists' })
+            return res.status(400).send({ error: 'User already exists' })
 
         const user = await User.create(req.body);
 
